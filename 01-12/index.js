@@ -3,7 +3,7 @@ const data = [157, 158, , 167, 157, 148, 154, 155, 156, 151, 126, 125, 119, 128,
 function main(array) {
     let counterResponse = 0;
     for (let i = 0; i < array.length; i++) {
-        if (i !== 0 && i !== array.length) {
+        if (i !== 0) {
             if (array[i] > array[i - 1]) {
                 counterResponse++;
             }
